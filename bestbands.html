@@ -1,0 +1,30 @@
+<head>
+  <title>Greatest Band</title>
+</head>
+
+<body>
+  <h3>Greatest Band of All Time</h3>
+</body>
+
+<template name="mobile">
+	<div class="container">
+	<div class="row">
+	<br />
+	{{#each band}}
+	<div class="span12 card">
+		{{name}}
+	</div>
+	<br /><br />
+	{{/each}}
+	</div>
+	</div>
+</template>
+
+<template name="admin">
+	<table>
+	{{#each band}}
+		<tr><td>{{name}}</td>
+		<td><button class="btn btn-large btn-success" type="button" style="width:{{multiply qscore}}px;"></button> </td></tr>
+	{{/each}}
+</table>
+</template>

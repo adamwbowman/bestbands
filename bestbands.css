@@ -1,0 +1,16 @@
+/* CSS declarations go here */
+.card {
+	background-color: #eee;
+	padding: 30px;
+	border: 2px black solid;
+	text-align: center;
+	text-decoration: bold;
+}
+.card:hover {
+	background-color: #999;
+}
+.card:active {
+-webkit-box-shadow: 0px 0px 20px 5px rgba(5,162,247,1);
+-moz-box-shadow: 0px 0px 20px 5px rgba(5,162,247,1);
+box-shadow: 0px 0px 20px 5px rgba(5,162,247,1);
+}
